@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RestCardioConditioningActivity"
+    android:background="@drawable/drawable_ilustration_purple">
+
+    <VideoView
+        android:id="@+id/videoView1"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_centerInParent="false" />
+
+    <TextView
+        android:id="@+id/rest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoView1"
+        android:layout_centerHorizontal="true"
+        android:text="NEXT: Jumping Jacks"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/restTimertext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/rest1"
+    android:layout_centerHorizontal="true"
+    android:text="00:10"
+    android:textSize="48sp"
+    android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/skipbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/restTimertext"
+    android:layout_centerHorizontal="true"
+    android:text="SKIP"
+    android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/backStepsHomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_steps_home"
+        android:text="Take a moment to catch your breath in the midst of your cardio and conditioning journey. Allow your heart rate to settle, your lungs to expand fully, and your body to recover its strength. Embrace this pause as a chance to refuel both physically and mentally, knowing that every moment of rest fuels your endurance for the challenges ahead."
+        android:layout_below="@+id/skipbtn"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:maxLines="10"
+        android:scrollbarSize="4dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

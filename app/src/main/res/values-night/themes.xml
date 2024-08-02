@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.UltimateFighterProgram" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+
+    </style>
+
+    <style name="Theme.UltimateFighterProgram" parent="Base.Theme.UltimateFighterProgram" />
+</resources>

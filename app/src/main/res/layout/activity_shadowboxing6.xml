@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.ShadowBoxing6"
+    android:background="@drawable/drawable_ilustration_purple">
+
+    <VideoView
+        android:id="@+id/videoView6"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerInParent="false" />
+
+    <TextView
+        android:id="@+id/exerciseName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoView6"
+        android:layout_centerHorizontal="true"
+        android:text="REAR UPPERCUT"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/timerText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exerciseName6"
+        android:layout_centerHorizontal="true"
+        android:text="00:30"
+        android:textSize="48sp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/pauseButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerText6"
+        android:layout_centerHorizontal="true"
+        android:text="PAUSE"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/backStepsHomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_steps_home"
+        android:text="Welcome to your Shadowboxing Session! Today, step into the ring to challenge yourself, mastering precision, technique, and rhythm. Focus on your breath, drawing strength and releasing tension. Visualize your elusive opponent, anticipate their movements, and respond with lightning-fast reflexes. Let your jabs be sharp, crosses powerful, and hooks relentless. Move with agility, ducking and weaving with grace."
+        android:layout_below="@+id/pauseButton6"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:maxLines="10"
+        android:scrollbarSize="4dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:layout_centerHorizontal="true"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/nextactivity"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/timerText6"
+        android:layout_toRightOf="@id/pauseButton6"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_next"
+        app:tint="@color/primary_dark" />
+
+</RelativeLayout>

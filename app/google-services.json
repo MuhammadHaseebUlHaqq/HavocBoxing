@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "612011839135",
+    "project_id": "ultimate-fighter-37f2b",
+    "storage_bucket": "ultimate-fighter-37f2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612011839135:android:a40cb8a1cb165e32851caa",
+        "android_client_info": {
+          "package_name": "com.example.ultimatefighterprogram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXPIL00FlWatedjCCItBC56L9EeovDWM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

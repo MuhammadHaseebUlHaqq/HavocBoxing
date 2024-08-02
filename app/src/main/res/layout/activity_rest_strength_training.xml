@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RestStrengthTrainingActivity"
+    android:background="@drawable/drawable_ilustration_purple">
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerInParent="false" />
+
+    <TextView
+        android:id="@+id/rest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoView1"
+        android:layout_centerHorizontal="true"
+        android:text="NEXT: Push-Ups"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/restTimertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rest1"
+        android:layout_centerHorizontal="true"
+        android:text="00:10"
+        android:textSize="48sp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/skipbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restTimertext"
+        android:layout_centerHorizontal="true"
+        android:text="SKIP"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/backStepsHomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_steps_home"
+        android:text="Pause and recharge amidst your strength training journey. Let your muscles recover, replenishing their energy for the challenges ahead. Take a moment to breathe deeply, feeling the vitality coursing through your veins. Remember, rest is not a setback but a vital component of your progression towards peak performance."
+        android:layout_below="@+id/skipbtn"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:maxLines="10"
+        android:scrollbarSize="4dp"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
